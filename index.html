@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Chinasaokwu Obasi">
+  <meta name="description" content="This is a survey form that looks to find out what interests employees">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Employee Interests form</title>
+</head>
+
+<body>
+  <div class="survey-form" align="center">
+    <header>
+      <h1>Employee Interests Survey Form</h1>
+    </header>
+    <main>
+      <form class="" action="index.html" method="post">
+        Enter your name:
+        <input type="text" name="userName" size="35" maxlength="35" value="">
+        <br><br>
+        Enter your department:
+        <input type="text" name="department" size="35" maxlength="35" value="">
+        <br><br>
+        Tell us a little about yourself:
+        <textarea name="about-you" rows="4" cols="30"></textarea>
+        <p>Do you exercise at home?
+          <input type="radio" name="exercise" value="Yes">Yes
+          <input type="radio" name="exercise" value="No">No
+        </p>
+        How do you like to read about your favorite topics?
+        <p>
+          <input type="checkbox" name="favorite-topics" value="Books">Books
+          <input type="checkbox" name="favorite-topics" value="Online-resources">Online resources
+          <input type="checkbox" name="favorite-topics" value="Phone-apps">Phone apps
+          <input type="checkbox" name="favorite-topics" value="Magazines">Magazines
+        </p>
+        What genre of movies do you like?
+        <select class="movie" name="moviePreference">
+          <option value="1" selected="true">comedy</option>
+          <option value="2">romance</option>
+          <option value="3">thriller</option>
+          <option value="4">horror</option>
+          <option value="5">biopic</option>
+        </select>
+        <br><br>
+        <input type="submit" name="" value="Submit form">
+      </form>
+    </main>
+
+    <footer>
+      <p><small>&copy; Chinasa's <a href="https://chinasaokwu-anda.github.io/cv-styled/">Projects</a>: with ❤ from Yenagoa, Nigeria.</small></p>
+    </footer>
+  </div>
+</body>
+
+</html>
